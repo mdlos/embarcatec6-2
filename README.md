@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=02A6F4&height=120&section=header"/>
 <h1 align="center">Embarcatec | Controle de Servomotor com PWM e LED RGB no Raspberry Pi Pico</h1>
 
@@ -48,4 +46,4 @@ Isto ajustará a flange do servomotor para a posição de, aproximadamente, 90 g
 
 https://youtu.be/PnwbPpZ43po
 =======
-# embarcatec3
+# embarcatec
