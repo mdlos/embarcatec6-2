@@ -1,0 +1,15 @@
+{
+    "version": 1,
+    "author": "Marcio de Arruda Fonseca",
+    "editor": "wokwi",
+    "parts": [
+      { "type": "wokwi-pi-pico", "id": "pico", "top": -3.15, "left": -6, "attrs": {} },
+      { "type": "wokwi-servo", "id": "servo1", "top": -2, "left": 144, "attrs": {} }
+    ],
+    "connections": [
+      [ "servo1:GND", "pico:GND.8", "black", [ "h-9.6", "v-19.2", "h-62.4" ] ],
+      [ "servo1:V+", "pico:3V3", "red", [ "h-67.2", "v-9.5" ] ],
+      [ "servo1:PWM", "pico:GP22", "blue", [ "h-38.4", "v57.8", "h-33.6" ] ]
+    ],
+    "dependencies": {}
+  }
